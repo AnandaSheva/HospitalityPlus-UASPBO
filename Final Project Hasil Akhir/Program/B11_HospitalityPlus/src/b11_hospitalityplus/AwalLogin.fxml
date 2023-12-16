@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="335.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="b11_hospitalityplus.AwalLoginController">
+   <children>
+      <ImageView fitHeight="296.0" fitWidth="255.0" layoutX="40.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Gambar/HospitalityPlus.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnuser" layoutX="93.0" layoutY="369.0" mnemonicParsing="false" onAction="#gotoinputlogin" prefHeight="35.0" prefWidth="150.0" style="-fx-background-color: #002D85;" text="Login As User" textFill="WHITE" />
+      <Button fx:id="btnemlploy" layoutX="93.0" layoutY="437.0" mnemonicParsing="false" onAction="#gotoinputlogin" prefHeight="35.0" prefWidth="150.0" style="-fx-background-color: #AAAAAA;" text="Login As Employee" textFill="WHITE" />
+   </children>
+</AnchorPane>

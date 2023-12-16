@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="b11_hospitalityplus.PesananController">
+   <children>
+      <Label layoutX="92.0" layoutY="49.0" prefHeight="35.0" prefWidth="151.0" text="Detail Pemesanan" textAlignment="CENTER" textFill="#003b95">
+         <font>
+            <Font name="NewsGoth BT Bold" size="19.0" />
+         </font>
+      </Label>
+      <Text layoutX="22.0" layoutY="146.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nama" />
+      <TextField layoutX="22.0" layoutY="156.0" prefHeight="29.0" prefWidth="289.0" />
+      <Text layoutX="22.0" layoutY="207.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nomor Telepon" />
+      <TextField layoutX="22.0" layoutY="217.0" prefHeight="29.0" prefWidth="289.0" />
+      <Text layoutX="23.0" layoutY="268.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email" />
+      <TextField layoutX="23.0" layoutY="278.0" prefHeight="29.0" prefWidth="289.0" />
+      <Text layoutX="22.0" layoutY="332.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Jumlah Tamu" />
+      <TextField layoutX="22.0" layoutY="342.0" prefHeight="29.0" prefWidth="289.0" />
+      <Text layoutX="22.0" layoutY="397.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tanggal Check-in" />
+      <TextField layoutX="22.0" layoutY="407.0" prefHeight="29.0" prefWidth="289.0" />
+      <Button fx:id="btnconfirm" layoutX="99.0" layoutY="520.0" mnemonicParsing="false" onAction="#gotopayment" prefHeight="35.0" prefWidth="137.0" style="-fx-background-color: #003B95;" text="Konfirmasi" textFill="WHITE" />
+      <Text layoutX="23.0" layoutY="462.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total Pembayaran" />
+      <Text fill="#003b95" layoutX="22.0" layoutY="486.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rp. 9.000.000">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <Label layoutX="137.0" layoutY="76.0" prefHeight="35.0" prefWidth="83.0" text="#" textAlignment="CENTER" textFill="#003b95">
+         <font>
+            <Font name="NewsGoth BT Bold" size="19.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

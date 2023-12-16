@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="b11_hospitalityplus.DetailController">
+   <children>
+      <Label layoutX="110.0" layoutY="14.0" prefHeight="35.0" prefWidth="113.0" text="Family Room" textAlignment="CENTER" textFill="#003b95">
+         <font>
+            <Font name="NewsGoth BT Bold" size="19.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="172.0" fitWidth="219.0" layoutX="60.0" layoutY="49.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Gambar/kamar%20hotel%20f_1.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#003b95" layoutX="54.0" layoutY="197.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Luas Kamar : ">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Text>
+      <Text fill="#003b95" layoutX="54.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="40 m2">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Text>
+      <Text fill="#003b95" layoutX="53.0" layoutY="244.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fitur Kamar :">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Text>
+      <Text fill="#003b95" layoutX="55.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Ruang Tidur Utama ">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Text>
+      <Text fill="#003b95" layoutX="55.0" layoutY="276.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Ruang Tidur Anak ">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Text>
+      <Text fill="#003b95" layoutX="54.0" layoutY="292.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Area bermain Anak Anak">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Text>
+      <Text fill="#003b95" layoutX="54.0" layoutY="308.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Fasilitas Kamar Mandi">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Text>
+      <Text fill="#003b95" layoutX="54.0" layoutY="324.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Akses Wi-Fi gratis">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Text>
+      <Text fill="#003b95" layoutX="54.0" layoutY="340.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Meja kerja dengan lampu baca">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Text>
+      <Text fill="#003b95" layoutX="54.0" layoutY="356.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Area Pantry dengan mesin pembuat kopi">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Text>
+      <Text fill="#003b95" layoutX="54.0" layoutY="372.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Teras Pribadi">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Text>
+      <Text fill="#003b95" layoutX="50.0" layoutY="414.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kenyamanan Tambahan :">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Text>
+      <Text fill="#003b95" layoutX="50.0" layoutY="430.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Layanan kebersihan harian">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Text>
+      <Text fill="#003b95" layoutX="49.0" layoutY="446.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Layanan kamar 24 jam">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Text>
+      <Text fill="#003b95" layoutX="48.0" layoutY="462.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Staf Ramah dan membantu">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Text>
+      <Text fill="#003b95" layoutX="18.0" layoutY="499.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rp. 4.500.000 / Malam">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="21.0" layoutY="522.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Status Ketersediaan : " wrappingWidth="77.33333333333326">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Text>
+      <Button fx:id="btnok" layoutX="232.0" layoutY="558.0" mnemonicParsing="false" onAction="#gotodetail" prefHeight="27.0" prefWidth="77.0" style="-fx-background-color: #003B95;" text="OK" textFill="WHITE" />
+      <TextField layoutX="118.0" layoutY="510.0" prefHeight="32.0" prefWidth="157.0" text="Tersedia / Tidak Tersedia" />
+   </children>
+</AnchorPane>

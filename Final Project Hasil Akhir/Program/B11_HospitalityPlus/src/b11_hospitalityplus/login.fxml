@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="335.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="b11_hospitalityplus.InputLoginController">
+   <children>
+      <Button fx:id="btnuser" layoutX="72.0" layoutY="432.0" mnemonicParsing="false" onAction="#gotologin" prefHeight="33.0" prefWidth="190.0" style="-fx-background-color: #003B95;" text="Login as User" textFill="WHITE" />
+      <Button fx:id="btnemployee" layoutX="73.0" layoutY="488.0" mnemonicParsing="false" onAction="#gotologin" prefHeight="33.0" prefWidth="190.0" style="-fx-background-color: #AAAAAA;" text="Login as Employee" textFill="WHITE" />
+      <ImageView fitHeight="291.0" fitWidth="262.0" layoutX="36.0" layoutY="68.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Gambar/HospitalityPlus.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="86.0" layoutY="343.0" text="HospitalityPlus">
+         <font>
+            <Font name="NewsGoth BT Bold" size="25.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
